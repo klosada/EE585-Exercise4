@@ -27,7 +27,7 @@ submit_forecast <- function(forecast,team_info,submit=FALSE){
         forecast_model_id =  system("git rev-parse HEAD", intern=TRUE), ## current git SHA
         name = "Air temperature to water temperature linear regression plus assume saturated oxygen", 
         type = "empirical",  
-        repository = "https://github.com/ecoforecast/EF_Activities"   ## put your REPO here *******************
+        repository = "git@github.com:klosada/EE585-Exercise4.git"   ## put your REPO here *******************
       ),
       initial_conditions = list(
         status = "absent"
